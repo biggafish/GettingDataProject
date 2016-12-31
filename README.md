@@ -1,6 +1,15 @@
 
 ## README
 
+**Testing the run_analysis.R file**
+please ensure the below has been completed before trying to run the run_analysis.R file
+
+1. ensure the project data has been downloaded and unzipped.
+
+2. set the *datadir* variable in the run_analysis.R file to the correct location of the downloaded data.  
+
+3. ensure that the plyr and reshape2 packages have been installed and loaded.
+
 **Introduction**
 
 This file explains the methods I have used to produce the tidy data set requested in the project instructions.

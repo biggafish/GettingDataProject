@@ -1,13 +1,15 @@
-#install the plyr package to help rename columns.
-install.packages(plyr)
-library(plyr)
+#install the plyr & reshape packages.
+install.packages("plyr")
+install.packages("reshape2")
+library("plyr")
+library("reshape2")
+
 
 #enter the root directory location of the data into the datadir string variable#
-
 datadir<-"C:/Rdata/GettingData/projectfiles/UCI"
 setwd(datadir)
 
-#import features
+#import features & labels
 features<-read.table("features.txt")
 activities<-read.table("activity_labels.txt")
 #extract only the columns that are means and standard deviations of measurements, exluding meanfreq() function
