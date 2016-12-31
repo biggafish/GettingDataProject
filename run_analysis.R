@@ -65,4 +65,4 @@ melt1<-melt(combined,c("subjectID","activityID"))
 summary<-dcast(melt1,subjectID + activityID ~ variable, mean)
 
 #export tidy summary data table to CSV.
-write.csv(summary,"TidySummaryData.csv",sep=",",row.names = FALSE)
+write.table(summary,"TidySummaryData.csv",sep=",",row.names = FALSE)

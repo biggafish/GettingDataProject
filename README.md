@@ -39,7 +39,7 @@ Thw inclusion of this code snippet is derived from and inspired by the David Hoo
 **Code Description**
 
 The first part of the script sets the correct working directory, this piece of code will need updating to the correct local directory.
-
+```
 #enter the root directory location of the data into the datadir string variable
 datadir<-"C:/Rdata/GettingData/projectfiles/UCI"
 setwd(datadir)
