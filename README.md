@@ -22,10 +22,10 @@ Please see the seperate codebook.md for a full description on the contents of th
 To read the file into R and view it please use the below code snippet:
 
 ```
-data<-read.table(filepath,header = TRUE)
+data<-read.table(filepath,header = TRUE,sep =",")
 View(data)
 ```
-This code snippet is taken from the David Hoods advice notes on the Getting and Cleaning course Project as referenced and linked to in the discussion forums in week 4. This page was hugely helpful in understanding tidy data and assisting with this project assignment.
+Thw inclusion of this code snippet is derived from and inspired by the David Hoods advice notes on the Getting and Cleaning course Project as referenced and linked to in the discussion forums in week 4. This page was hugely helpful in understanding tidy data and assisting with this project assignment.
 
 **Code Description**
 
