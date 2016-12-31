@@ -124,7 +124,7 @@ This was then exported using the below commands:
 
 ```
 #export tidy summary data table to CSV.
-write.table(summary,"TidySummaryData.csv",row.name=FALSE)
+write.table(summary,file = "TidySummaryData.csv",row.name=FALSE,sep = ",")
 ```
 
 End of ReadMe file
